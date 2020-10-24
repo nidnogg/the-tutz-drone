@@ -1,8 +1,7 @@
-# sueli drone
+# the tutz drone
 
-Sueli Drone is a tiny web app mimicking a radio widget.
+the tutz Drone is a tiny web app mimicking a radio widget - featuring the cool work of [the tutz](https://thetutz.bandcamp.com/), an experimental musician from Brazil.
 
-It supports user defined alarms and it's mostly intended to play moody songs that would lull the user to a healthy night's sleep.
 
 ## Usage
 
