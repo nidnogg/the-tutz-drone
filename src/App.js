@@ -63,23 +63,24 @@ const App = () => {
   return (
     <section className="main-section">
       <Hentai isMenuOpen={isMenuOpenCallback} setMenuOpen={setMenuOpenCallback} />
-      <img className="background-img" src={Bg} alt="background"></img>
+      {/*<img className="background-img" src={Bg} alt="background"></img>*/}
       <section ref={menu} className="main-menu-section">
         <div ref={menuHeaderDiv} className="main-menu-header">
-            <span ref={menuHeader} className="menu-header">sueli drone</span> <span className="ver-num" ref={verNum}>v1.0</span>     
+            <span ref={menuHeader} className="menu-header">the tutz drone</span> <span className="ver-num" ref={verNum}>v1.0</span>     
         </div>
         
         <div ref={menuContentDiv} className="main-menu-content">
           <p>
-            Olá Sueli! Seja bem-vinda ao seu rádio pessoal na internet. 
+            welcome to the tutz radio.
             
             <br/> <br/>
-            Aqui está um <a href="https://photos.app.goo.gl/Vcp9VM7kGLPgwEDE7">álbum</a> com suas fotos.
-            Muito obrigado por todo o seu carinho e hospitalidade nos nossos 3 anos que nos conhecemos. Você é uma pessoa incrível! <br />
-            Admiro muito seu amor pelo seu trabalho. <br />
-            A última música é de minha autoria. Veja mais no meu <a href="https://soundcloud.com/nidnogg">soundcloud!</a> <br/>
-            Inspirado pela exposição fenomenal do Docubyte, <a href="https://www.docubyte.com/works/guide-to-computing/">Guide to Computing.</a> <br />
-            Feliz Aniversário!
+            linky link <a href="https://patreon.com/nidnogg">patreon</a>
+            maybe free coffee? @ <a href="https://ko-fi.com/nidnogg">ko-fi</a> com suas fotos.
+
+            thanks for listening, nidnogg. <br />
+            check out nidnogg's <a href="https://soundcloud.com/nidnogg">soundcloud!</a> <br/>
+            based off Docubyte's phenomenal <a href="https://www.docubyte.com/works/guide-to-computing/">Guide to Computing.</a> <br />
+            cheers from #SiliconRio!
           </p>
         </div>
       </section>
